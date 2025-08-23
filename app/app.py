@@ -17,7 +17,7 @@ load_dotenv()
 # Configure the page
 st.set_page_config(
     page_title="CraftiQ",
-    page_icon="images/logo.png",  # Changed from image path to emoji for compatibility
+    page_icon="app/images/logo.png",  # Changed from image path to emoji for compatibility
     layout="wide",
     initial_sidebar_state="collapsed",
 )
