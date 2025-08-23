@@ -149,7 +149,7 @@ def main():
         text-align: left;
         padding: 2rem 0;
         color: #ff4b4b !important;
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: bold;
         margin-bottom: 2rem;
         background: transparent;
