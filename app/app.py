@@ -146,17 +146,14 @@ def main():
         """
     <style>
     .main-header {
-        text-align: center;
+        text-align: left;
         padding: 2rem 0;
         color: #ff4b4b !important;
-        font-size: 3rem;
+        font-size: 5rem;
         font-weight: bold;
         margin-bottom: 2rem;
-        background: linear-gradient(90deg, #ff4b4b 0%, #e63946 50%, #dc2626 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        /* Fallback for browsers that don't support background-clip */
+        background: transparent;
+        
     }
 
     .feature-box {
@@ -210,23 +207,7 @@ def main():
     )
 
     # Header - Fixed CSS for better compatibility
-    st.markdown('<h1 class="main-header">CraftiQ</h1>', unsafe_allow_html=True)
-
-    # Alternative header in case CSS doesn't load
-    st.markdown(
-        """
-    <style>
-    .fallback-header {
-        text-align: center;
-        font-size: 3rem;
-        font-weight: bold;
-        color: #ff4b4b;
-        margin-bottom: 1rem;
-    }
-    </style>
-    """,
-        unsafe_allow_html=True,
-    )
+    st.markdown('<h1 class="main-header">CraftiQ</h1>', unsafe_allow_html=True)    # Alternative header in    st.markdow
     st.markdown("### AI magic that turns ideas into websites✨")
 
     # Initialize session state
